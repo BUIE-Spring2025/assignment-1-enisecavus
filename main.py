@@ -30,7 +30,7 @@ def int_to_roman(num):
             num -= 50
             return "L" + str(int_to_roman(num))
     elif 500 > num >= 100:
-        if num == 400:
+        if num >= 400:
             num -= 400
             return "CD" + str(int_to_roman(num))
         else:
