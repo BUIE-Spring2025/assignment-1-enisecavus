@@ -44,8 +44,8 @@ def int_to_roman(num):
             num -= 500
             return "D" + str(int_to_roman(num))
     elif num >= 1000:
-            num -= 1000
-            return "M" + str(int_to_roman(num))
+        num -= 1000
+        return "M" + str(int_to_roman(num))
 
     """
     Convert an integer to a Roman numeral.
